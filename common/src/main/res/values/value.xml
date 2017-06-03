@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Common</string>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="AdjustTextView"><attr format="dimension" name="oscMinTextSize"/></declare-styleable>
+    <declare-styleable name="FlowLayout"><attr format="dimension" name="oscVerticalSpace"/><attr format="dimension" name="oscHorizontalSpace"/></declare-styleable>
+    <declare-styleable name="SquareLayout">
+        <attr format="integer" name="oscAccordTo">
+            <enum name="width" value="1"/>
+            <enum name="height" value="2"/>
+            <enum name="useMin" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>
